@@ -71,7 +71,7 @@ export default function LanguagesScreen({ navigation }) {
       </View>
       <TouchableOpacity
         style={styles.btnSignup}
-        onPress={() => navigation.navigate("registerBackground")}
+        onPress={() => navigation.navigate("home")}
       >
         <Text style={styles.txtSignup}>Continue</Text>
       </TouchableOpacity>
@@ -96,8 +96,7 @@ const styles = StyleSheet.create({
 
   wrapper: {
     marginTop: "85%",
-    //marginBottom: "50%",
-    // borderWidth: 1,
+
     marginLeft: 10,
     marginRight: 10,
     borderRadius: 20,
@@ -138,7 +137,6 @@ const styles = StyleSheet.create({
     marginLeft: 30,
     borderBottomWidth: 1,
     borderBottomColor: "#778AA2",
-    //marginTop: 20,
     padding: 10,
     textAlign: "left",
   },

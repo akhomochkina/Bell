@@ -115,8 +115,6 @@ const styles = StyleSheet.create({
 
   wrapper: {
     marginTop: "85%",
-    //marginBottom: "50%",
-    //borderWidth: 1,
     marginLeft: 10,
     marginRight: 10,
     borderRadius: 20,
