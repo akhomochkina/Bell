@@ -38,13 +38,13 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.container}>
         <TouchableOpacity
           style={styles.btnSignup}
-          // onPress={() => navigation.navigate("home")}
+          onPress={() => navigation.navigate("mentor")}
         >
           <Text style={styles.txtSignup}>Find Mentor</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.btnSignup}
-          // onPress={() => navigation.navigate("home")}
+          onPress={() => navigation.navigate("group")}
         >
           <Text style={styles.txtSignup}>Join a Group</Text>
         </TouchableOpacity>

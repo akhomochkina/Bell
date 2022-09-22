@@ -10,6 +10,8 @@ import EventsScreen from "../screens/EventsScreen";
 import LanguagesScreen from "../screens/LanguagesScreen";
 import AccountScreen from "../screens/AccountScreen";
 import { NavigationEvents } from "react-navigation";
+import GroupsScreen from "../screens/GroupsScreen";
+import FindMentorScreen from "../screens/FindMentorScreen";
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -107,6 +109,8 @@ const HomeNav = () => {
         name="Home"
         component={HomeNavigation}
       />
+      <Stack.Screen name="group" component={GroupsScreen} />
+      <Stack.Screen name="mentor" component={FindMentorScreen} />
     </Stack.Navigator>
   );
 };
