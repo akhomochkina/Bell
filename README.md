@@ -1,3 +1,5 @@
+#Welcome to MentorHub - you belong in tech!
+
 <p float="left">
   <img src="https://github.com/akhomochkina/Bell/blob/main/my-app/src/assets/1.jpeg" width="15%" hight="15%">
    <img src="https://github.com/akhomochkina/Bell/blob/main/my-app/src/assets/2.jpeg" width="15%" hight="15%">
